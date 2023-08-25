@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product">
+        <div class="gallery">
+          <img src="images/images1.png " id="productImg" />
+          <div class="controls">
+            <span class="btn active"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+          </div>
+        </div>
+        <div class="details">
+          <h1>Dog T-Shirt</h1>
+          <h2>$8.00</h2>
+          <h3>25% OFF</h3>
+          <p>Peach Color and Polka Dot Pocket Detailed</p>
+          <form>
+            <div class="size-select">
+              <p>Size</p>
+              <label for="small">
+                <input type="radio" name="size" id="small" />
+                <span>S</span>
+              </label>
+              <label for="medium">
+                <input type="radio" name="size" id="medium" />
+                <span>M</span>
+              </label>
+              <label for="large">
+                <input type="radio" name="size" id="large" />
+                <span>L</span>
+              </label>
+              <label for="x-large">
+                <input type="radio" name="size" id="x-large" />
+                <span>XL</span>
+              </label>
+              <label for="xx-large">
+                <input type="radio" name="size" id="xx-large" />
+                <span>XXL</span>
+              </label>
+            </div>
+            <div class="color-select">
+              <p>Color</p>
+              <label for="green">
+                <input type="radio" name="color" id="green" />
+                <span class="color-1"></span>
+              </label>
+              <label for="peach">
+                <input type="radio" name="color" id="peach" />
+                <span class="color-2"></span>
+              </label>
+              <label for="purple">
+                <input type="radio" name="color" id="purple" />
+                <span class="color-3"></span>
+              </label>
+              <label for="pink">
+                <input type="radio" name="color" id="pink" />
+                <span class="color-4"></span>
+              </label>
+            </div>
+            <div class="quantity-select">
+              <p>Quantity</p>
+              <input type="number" value="1" />
+            </div>
+            <button>BUY NOW</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
